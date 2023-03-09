@@ -37,7 +37,7 @@ const AddStudents = () =>{
   
     return(
         <Container>
-            <Typography variant="h4">Add student name</Typography>
+            <Typography variant="h4">Add a student name</Typography>
             <FormControl>
                 <InputLabel htmlFor="my-input">Name</InputLabel>
                 <Input onChange={(e) => onValueChange(e)} name= "name"/>
